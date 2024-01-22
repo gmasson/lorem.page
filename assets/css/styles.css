@@ -1,0 +1,78 @@
+/* CSS */
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #333;
+	background: #f3f3f3;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #111;
+}
+
+header {
+	width: 90%;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 2em 0;
+	text-align: center;
+}
+
+header img {
+	height: 7em;
+}
+
+section {
+	width: 90%;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
+article {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.7;
+    font-size: 1.1em;
+    color: #222;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    margin-bottom: 1em;
+}
+
+article ul, ol {
+    margin-bottom: 1em;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article .page-break {
+    page-break-before: always;
+}
+
+p svg {
+	cursor: pointer;
+	padding: 0 .3em;
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
+
+footer {
+	width: 90%;
+	max-width: 980px;
+	margin: 0 auto;
+	border-top: 1px solid #ddd;
+	padding: 1em 0;
+	text-align: center;
+}

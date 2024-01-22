@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://lorem.page/sitemap.xml

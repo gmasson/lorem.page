@@ -1,0 +1,37 @@
+{
+  "name": "LoremPage",
+  "short_name": "LoremPage",
+  "description": "LoremPage is the perfect tool to fill your projects with placeholder text quickly and efficiently. Whether it's for testing layouts, creating prototypes, or filling temporary spaces.",
+  "lang": "en",
+  "theme_color": "#333333",
+  "background_color": "#333333",
+  "start_url": "/?src=pwa",
+  "display": "standalone",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "assets/img/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/img/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+    "src": "assets/img/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
